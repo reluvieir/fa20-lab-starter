@@ -1,0 +1,36 @@
+1. man -k hierarchy
+
+(base) reluvieir@LAPTOP-LL84VOOU:/mnt/c/Users/reluvieir$ man -k hierarchy
+file-hierarchy (7)   - File system hierarchy overview
+find (1)             - search for files in a directory hierarchy
+fts (3)              - traverse a file hierarchy
+fts_children (3)     - traverse a file hierarchy
+fts_close (3)        - traverse a file hierarchy
+fts_open (3)         - traverse a file hierarchy
+fts_read (3)         - traverse a file hierarchy
+fts_set (3)          - traverse a file hierarchy
+hier (7)             - description of the filesystem hierarchy
+tc-htb (8)           - Hierarchy Token Bucket
+
+
+2. man -k 'processes'
+
+
+3. man -k 'send a signal'
+
+(base) reluvieir@LAPTOP-LL84VOOU:/mnt/c/Users/reluvieir$ man -k 'send a signal'
+kill (1)             - send a signal to a process
+killall5 (8)         - send a signal to all processes.
+pidfd_send_signal (2) - send a signal to a process specified by a file descriptor
+pthread_kill (3)     - send a signal to a thread
+raise (3)            - send a signal to the caller
+skill (1)            - send a signal or report process status
+snice (1)            - send a signal or report process status
+tgkill (2)           - send a signal to a thread
+tkill (2)            - send a signal to a thread
+
+
+4. man -k 'compare files'
+
+(base) reluvieir@LAPTOP-LL84VOOU:/mnt/c/Users/reluvieir$ man -k 'compare files'
+diff (1)             - compare files line by line
