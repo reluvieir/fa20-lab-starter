@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /* Only change any of these 4 values */
-#define V0 0
-#define V1 -1
-#define V2 0
-#define V3 0
+#define V0 3
+#define V1 3
+#define V2 3    // V2只要不是0就可以，所以宏定义的四个数可以都是3
+#define V3 3
 
 int main(void) {
     int a;
@@ -23,6 +23,8 @@ int main(void) {
     printf("\n");
 
     /* switch statement */
+    // 在 switch 语句中，执行到匹配的 case 后，
+    // 会从那里开始一直往下执行，直到遇到 break 或 switch 结束。
     switch (V1)
     {
     case 0:
