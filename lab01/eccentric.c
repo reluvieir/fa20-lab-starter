@@ -24,7 +24,8 @@ int main(void) {
 
     /* switch statement */
     // 在 switch 语句中，执行到匹配的 case 后，
-    // 会从那里开始一直往下执行，直到遇到 break 或 switch 结束。
+    // 会从那里开始一直往下执行，
+    // 直到遇到 break 或 switch 结束。
     switch (V1)
     {
     case 0:
