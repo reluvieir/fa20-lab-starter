@@ -7,3 +7,8 @@ int main() {
     }
     printf("sum of array is %d\n", total);
 }
+
+// 正确的代码
+// for (int j = 0; j < sizeof(a) / sizeof(a[0]); j++) {
+//     total += a[j];
+// }
