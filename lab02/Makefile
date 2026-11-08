@@ -48,3 +48,6 @@ clean:
 
 vector.c: vector.h
 vector-test.c: vector.h
+
+vector-test: vector-test.c vector.c vector.h
+	gcc -ggdb -Wall -std=c99 vector-test.c vector.c -o vector-test
